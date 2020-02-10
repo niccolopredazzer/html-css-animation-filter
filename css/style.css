@@ -3,6 +3,10 @@
     height: 100px;
     border: 1px solid red;
 }
+.ex-1-square:hover {
+    background: red;
+    transition: background 5s;
+}
 .ex-2-square {
     width: 100px;
     height: 100px;
