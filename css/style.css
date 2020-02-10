@@ -12,6 +12,10 @@
     height: 100px;
     background: red;
 }
+.ex-2-square:active {
+    transition: 5s;
+    width: 500%;
+}
 .ex-3-square {
     width: 100px;
     height: 100px;
