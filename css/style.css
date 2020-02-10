@@ -77,9 +77,17 @@
     border-radius: 10px;
     transform: scale(1.7);
 }
+
 .ex-10-icon {
     font-size: 60px;
+    animation: gira 2s linear infinite;
 }
+
+@keyframes gira {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
