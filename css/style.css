@@ -55,8 +55,11 @@
 }
 
 .ex-6-img:hover {
-    transition: 3s;
     filter: grayscale(1.0);
+}
+.ex-7-img:hover {
+    transition: 3s;
+    filter: opacity(0.5) grayscale(1.0);
 }
 
 .ex-9-img {
